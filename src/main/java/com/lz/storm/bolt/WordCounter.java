@@ -17,7 +17,7 @@ import java.util.Map;
 public class WordCounter implements IRichBolt{
     Integer id;
     String name;
-    Map<String, Integer> counters;
+    private Map<String, Integer> counters;
     private OutputCollector collector;
 
     @Override
